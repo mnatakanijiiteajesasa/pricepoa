@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Allow access to CSS and JS files
+Allow: /*.css$
+Allow: /*.js$
+
+# Sitemap location
+Sitemap: https://pricepoa.co.ke/sitemap.xml
